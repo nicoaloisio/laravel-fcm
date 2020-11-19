@@ -13,7 +13,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Kawankoding\\Fcm\\" : "src/"
+            "nicoaloisio\\Fcm\\" : "src/"
         },
         "files" : [
             "src/helpers.php"
@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kawankoding\\Fcm\\FcmServiceProvider"
+                "nicoaloisio\\Fcm\\FcmServiceProvider"
             ],
             "aliases" : {
-                "Fcm": "Kawankoding\\Fcm\\FcmFacade"
+                "Fcm": "nicoaloisio\\Fcm\\FcmFacade"
             }
         }
     }

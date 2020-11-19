@@ -16,12 +16,10 @@ class Fcm
     protected $notification;
     protected $timeToLive;
     protected $priority;
-
     protected $serverKey;
 
-    public function __construct($serverKey)
+    public function __construct()
     {
-        $this->serverKey = $serverKey;
     }
 
     public function to(array $recipients)
@@ -71,6 +69,10 @@ class Fcm
         $this->timeToLive = $timeToLive;
 
         return $this;
+    }
+
+    public function setKey($serverKey){
+        $this->serverKey = $serverKey;
     }
 
     public function send()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kawankoding\Fcm;
+namespace NicoAloisio\Fcm;
 
 use Illuminate\Support\Facades\Facade;
 

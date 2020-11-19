@@ -1,10 +1,10 @@
 <?php
 
-namespace Kawankoding\Fcm;
+namespace NicoAloisio\Fcm;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
-use Kawankoding\Fcm\Fcm;
+use NicoAloisio\Fcm\Fcm;
 use Laravel\Lumen\Application as LumenApplication;
 
 /**
